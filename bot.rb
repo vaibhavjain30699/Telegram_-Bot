@@ -2,7 +2,7 @@ require 'telegram_bot'
 require 'rubygems'
 require 'open-uri'
 require 'nokogiri'
-token = '572979599:AAEX1mmsoleXGzPXEodTvsmlE0ZhHyOAw3Q'
+token = 'Your own api token'
 bot = TelegramBot.new(token: token)
 
 bot.get_updates(fail_silently: true) do |message|
